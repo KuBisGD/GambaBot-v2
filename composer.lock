@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71fa5385ccdde7de68b1c7d3c775fb34",
+    "content-hash": "ddd6f09f8d4e08eb2c20789954e62bfe",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -368,6 +368,43 @@
                 "source": "https://github.com/igorw/evenement/tree/v3.0.2"
             },
             "time": "2023-08-08T05:53:35+00:00"
+        },
+        {
+            "name": "ewn/ovent",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KuBisGD/ovent.git",
+                "reference": "fd3747d3e773f54b6393cc71cf4462c79f473f52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KuBisGD/ovent/zipball/fd3747d3e773f54b6393cc71cf4462c79f473f52",
+                "reference": "fd3747d3e773f54b6393cc71cf4462c79f473f52",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ewn\\Ovent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KuBisGD",
+                    "email": "142990773+KuBisGD@users.noreply.github.com"
+                }
+            ],
+            "description": "An event system using a form of the observer design pattern.",
+            "support": {
+                "issues": "https://github.com/KuBisGD/ovent/issues",
+                "source": "https://github.com/KuBisGD/ovent/tree/v2.1.0"
+            },
+            "time": "2026-07-23T17:48:48+00:00"
         },
         {
             "name": "fig/http-message-util",

@@ -13,6 +13,7 @@
     ],
     "require": {
         "team-reflex/discord-php": "^10.68",
-        "symfony/dotenv": "^8.1"
+        "symfony/dotenv": "^8.1",
+        "ewn/ovent": "^2.1"
     }
 }
