@@ -30,4 +30,10 @@ abstract class Game
     {
         $this->_age = time();
     }
+
+    public function __call($name, $arguments)
+    {
+        $this->renew();
+        $this->{$name}(...$arguments);
+    }
 }
