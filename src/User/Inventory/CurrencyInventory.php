@@ -11,7 +11,7 @@ use App\GambaBot\Exceptions\InvalidDiscordUserId;
  */
 abstract readonly class CurrencyInventory
 {
-    public private(set) string $owner;
+    public string $owner;
 
     /**
      * Undocumented function
